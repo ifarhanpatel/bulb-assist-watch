@@ -1,0 +1,88 @@
+{
+  "checked_at_utc": "2026-10-08T15:20:48Z",
+  "read_only": true,
+  "device_ids_omitted": true,
+  "checks": {
+    "authentication": "passed",
+    "device_visible": "passed",
+    "model": "parsed"
+  },
+  "data_center": "IN",
+  "device_count": 1,
+  "online": true,
+  "properties": [
+    {
+      "code": "switch_led",
+      "access": "rw",
+      "type": "bool",
+      "reported_state": false
+    },
+    {
+      "code": "work_mode",
+      "access": "rw",
+      "type": "enum",
+      "range": [
+        "white",
+        "colour",
+        "scene",
+        "music"
+      ],
+      "reported_state": "white"
+    },
+    {
+      "code": "bright_value",
+      "access": "rw",
+      "type": "value",
+      "min": 10,
+      "max": 1000,
+      "step": 1,
+      "scale": 0,
+      "unit": "",
+      "reported_state": 1000
+    },
+    {
+      "code": "temp_value",
+      "access": "rw",
+      "type": "value",
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "scale": 0,
+      "unit": "",
+      "reported_state": 1000
+    },
+    {
+      "code": "colour_data",
+      "access": "rw",
+      "type": "string"
+    },
+    {
+      "code": "scene_data",
+      "access": "rw",
+      "type": "string"
+    },
+    {
+      "code": "countdown",
+      "access": "rw",
+      "type": "value",
+      "min": 0,
+      "max": 86400,
+      "step": 1,
+      "scale": 0,
+      "unit": "",
+      "reported_state": 0
+    },
+    {
+      "code": "control_data",
+      "access": "wr",
+      "type": "string"
+    }
+  ],
+  "power_candidates": [
+    "switch_led"
+  ],
+  "brightness_candidates": [
+    "bright_value"
+  ],
+  "next_step": "Review capabilities before a physical power/brightness command test."
+}

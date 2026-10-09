@@ -1,0 +1,44 @@
+name: Source checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  swift:
+    runs-on: macos-26
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, verified 2026-10-09
+        with:
+          persist-credentials: false
+      - name: Show toolchain
+        run: xcodebuild -version && swift --version
+      - name: Core tests
+        run: make test
+      - name: Simulator builds
+        run: make build
+      - name: Documentation links and source export
+        run: |
+          python3 scripts/test-release-export.py
+          python3 scripts/check-docs.py
+          python3 scripts/export-source.py
+  secrets:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, verified 2026-10-09
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Install verified Gitleaks 8.30.1
+        run: |
+          curl --fail --silent --show-error --location --max-time 60 \
+            https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz \
+            --output "$RUNNER_TEMP/gitleaks.tar.gz"
+          echo "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  $RUNNER_TEMP/gitleaks.tar.gz" | sha256sum --check
+          tar -xzf "$RUNNER_TEMP/gitleaks.tar.gz" -C "$RUNNER_TEMP" gitleaks
+      - name: Scan public Git history
+        run: '"$RUNNER_TEMP/gitleaks" git --config=.gitleaks.toml --redact=100 --no-banner --log-opts="--all --full-history -m" .'
+      - name: Scan source files
+        run: '"$RUNNER_TEMP/gitleaks" dir --config=.gitleaks.toml --redact=100 --no-banner .'

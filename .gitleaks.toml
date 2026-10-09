@@ -1,0 +1,23 @@
+title = "Bulb Assist secret scanning"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "tuya-end-user-key"
+description = "Tuya End User bearer key"
+regex = '''\b(sk-(?:AY|AZ|EU|IN|UE|WE|SG)[A-Za-z0-9_-]{8,})\b'''
+secretGroup = 1
+keywords = ["sk-"]
+
+[[rules.allowlists]]
+description = "Exact synthetic integration-test key, used with an injected fake transport"
+condition = "AND"
+paths = ['''^Packages/BulbCore/Tests/BulbCoreTests/TuyaCoordinatorIntegrationTests\.swift$''']
+regexes = ['''^sk-INsynthetic-integration-fixture$''']
+
+[[rules.allowlists]]
+description = "Exact synthetic Tuya fixture key, used with fake transport"
+condition = "AND"
+paths = ['''^Packages/BulbCore/Tests/BulbCoreTests/Tuya/TuyaFixtures\.swift$''']
+regexes = ['''^sk-IN-synthetic-fixture$''']

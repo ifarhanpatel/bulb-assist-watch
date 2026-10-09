@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1822E1A17B2349DB41EA8CCD /* WatchConnectivityBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190EDCEB667507F93FF3A0E2 /* WatchConnectivityBridge.swift */; };
+		1D7A8931304EDA56226BE05E /* BrightnessDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E484F99783C98E2990AC88 /* BrightnessDial.swift */; };
+		26BE77A1C9142B04DE8C2856 /* RemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158820889940E29434CFF37F /* RemoteView.swift */; };
+		2A32CFDC24FA4281E8FB3956 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC83FB31A6562CFBD05CFC /* ConnectionView.swift */; };
+		2D0EED191AB94251FE50784F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711BA2E0CDFE931CD931235 /* Theme.swift */; };
+		3210C938EDA7D1D4FA483088 /* BulbCore in Frameworks */ = {isa = PBXBuildFile; productRef = 75A6D590134067D1098DBC5F /* BulbCore */; };
+		326A5B26C2D3F67353FE84EF /* ProvisioningPlatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E4C54183321B6723DB3823 /* ProvisioningPlatformTests.swift */; };
+		380821A77664F3886E312B7B /* BulbCore in Frameworks */ = {isa = PBXBuildFile; productRef = 19F987208E07933044A2E059 /* BulbCore */; };
+		3D42CF504C48186347A5F990 /* BulbAssistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36778CD98D90395D24A073 /* BulbAssistApp.swift */; };
+		3EB47A00AFBBAB0FDED3B8F5 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC83FB31A6562CFBD05CFC /* ConnectionView.swift */; };
+		45A183C45E6857727F03D137 /* KeychainCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952654E563DD7AC26A0E6D16 /* KeychainCredentialStore.swift */; };
+		46E05D070894FF3FC9F2A3AB /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4D78AF6F91DEA52A29470 /* Prototype.swift */; };
+		49DE380ADF8A9424E16556E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5F7FEE455C203407E74A14 /* Assets.xcassets */; };
+		54392BD8D864C7950C442EF7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2C2A8CE98B5152B0AFE38B /* WelcomeView.swift */; };
+		58006F03010A98B6CDB9707D /* BulbAssistWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CE18FCABE8E999B2D6C80FAE /* BulbAssistWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6B09D3D0910ED2FA012EAFF2 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4D78AF6F91DEA52A29470 /* Prototype.swift */; };
+		75B7DD16A1137686E997C5A8 /* AppRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA459BE523155FE97FC7213 /* AppRuntime.swift */; };
+		7A880B137B23C87E27F0794A /* CompanionSetupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DADE5A2DE2344D9D2E2313 /* CompanionSetupUITests.swift */; };
+		8A2A7B6BB2AEBE362EAD8189 /* BrightnessDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E484F99783C98E2990AC88 /* BrightnessDial.swift */; };
+		94B0DE6FBA7030C8FB0D1C40 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711BA2E0CDFE931CD931235 /* Theme.swift */; };
+		A8AAC9E663775B2191799575 /* BulbCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6A38B1A13EC0CA33B61F4C26 /* BulbCore */; };
+		B744D235E827722684070E2F /* WatchRemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BEB8B5C455B35930CA1A1 /* WatchRemoteUITests.swift */; };
+		BA5ADE6FC34410968CFEE2F3 /* BulbAssistWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478E7FC302B1591CFBDB90E /* BulbAssistWatchApp.swift */; };
+		C1593199B5A157C4D22970BE /* KeychainCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952654E563DD7AC26A0E6D16 /* KeychainCredentialStore.swift */; };
+		D59491C3EBBFA73E69A0CCD3 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36931178ED125BA0FD42020E /* SetupView.swift */; };
+		D6397C4C17EB7AE34FC7B798 /* AppRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA459BE523155FE97FC7213 /* AppRuntime.swift */; };
+		E02D1D7E6A90936A0C5FDFBB /* WatchConnectivityBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190EDCEB667507F93FF3A0E2 /* WatchConnectivityBridge.swift */; };
+		E3ECF67D25B6411B25E82A94 /* PlatformContractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E41A54BF87FF067C75C06B /* PlatformContractTests.swift */; };
+		EA5228ABC11F889D10114630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5F7FEE455C203407E74A14 /* Assets.xcassets */; };
+		F59BBC412C8F86D73F368D9E /* RemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158820889940E29434CFF37F /* RemoteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		119A6AB2062FA44B10736086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B53634F2EFA6F00FC4F5742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3132670AD47139CCBE92847F;
+			remoteInfo = BulbAssistWatch;
+		};
+		14A610CBB182924B8F79AA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B53634F2EFA6F00FC4F5742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3132670AD47139CCBE92847F;
+			remoteInfo = BulbAssistWatch;
+		};
+		B8A400807748DA971F431735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B53634F2EFA6F00FC4F5742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBCDE3DAF6FEE6F34FEA2537;
+			remoteInfo = BulbAssist;
+		};
+		F78016CD8C148A8A0660AB5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B53634F2EFA6F00FC4F5742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBCDE3DAF6FEE6F34FEA2537;
+			remoteInfo = BulbAssist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8AB18969D855B1FD3CC53AC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				58006F03010A98B6CDB9707D /* BulbAssistWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06DC83FB31A6562CFBD05CFC /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		158820889940E29434CFF37F /* RemoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteView.swift; sourceTree = "<group>"; };
+		182BEB8B5C455B35930CA1A1 /* WatchRemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRemoteUITests.swift; sourceTree = "<group>"; };
+		190EDCEB667507F93FF3A0E2 /* WatchConnectivityBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityBridge.swift; sourceTree = "<group>"; };
+		1A2C2A8CE98B5152B0AFE38B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		1D2CD367E649573DC34E5A15 /* BulbAssistPlatformTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BulbAssistPlatformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2711BA2E0CDFE931CD931235 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		29E484F99783C98E2990AC88 /* BrightnessDial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessDial.swift; sourceTree = "<group>"; };
+		36931178ED125BA0FD42020E /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		3F070A84FCB42AE9F13C259B /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		3F36778CD98D90395D24A073 /* BulbAssistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbAssistApp.swift; sourceTree = "<group>"; };
+		416424535E90E92190F98D01 /* BulbAssistUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BulbAssistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4478E7FC302B1591CFBDB90E /* BulbAssistWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbAssistWatchApp.swift; sourceTree = "<group>"; };
+		66DADE5A2DE2344D9D2E2313 /* CompanionSetupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionSetupUITests.swift; sourceTree = "<group>"; };
+		68E0263C78F725401F635A80 /* BulbAssistWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulbAssistWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EF64E4954EBDA627148257 /* BulbCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BulbCore; path = Packages/BulbCore; sourceTree = SOURCE_ROOT; };
+		74E4D78AF6F91DEA52A29470 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
+		8C5F7FEE455C203407E74A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		952654E563DD7AC26A0E6D16 /* KeychainCredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainCredentialStore.swift; sourceTree = "<group>"; };
+		A0E4C54183321B6723DB3823 /* ProvisioningPlatformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningPlatformTests.swift; sourceTree = "<group>"; };
+		BEA459BE523155FE97FC7213 /* AppRuntime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRuntime.swift; sourceTree = "<group>"; };
+		CE18FCABE8E999B2D6C80FAE /* BulbAssistWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulbAssistWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3476D690786B0C0324DCF94 /* BulbAssist.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BulbAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E41A54BF87FF067C75C06B /* PlatformContractTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformContractTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2629CF8287E837A47D28A7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3210C938EDA7D1D4FA483088 /* BulbCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D61DB46B73D2EFF93A2763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AAC9E663775B2191799575 /* BulbCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6896F97D7EA540C6072DDE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380821A77664F3886E312B7B /* BulbCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FB5C3D4413421A3E596FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3476D690786B0C0324DCF94 /* BulbAssist.app */,
+				1D2CD367E649573DC34E5A15 /* BulbAssistPlatformTests.xctest */,
+				416424535E90E92190F98D01 /* BulbAssistUITests.xctest */,
+				CE18FCABE8E999B2D6C80FAE /* BulbAssistWatch.app */,
+				68E0263C78F725401F635A80 /* BulbAssistWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44349C71E7EF9F172C071257 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BEA459BE523155FE97FC7213 /* AppRuntime.swift */,
+				8C5F7FEE455C203407E74A14 /* Assets.xcassets */,
+				29E484F99783C98E2990AC88 /* BrightnessDial.swift */,
+				06DC83FB31A6562CFBD05CFC /* ConnectionView.swift */,
+				74E4D78AF6F91DEA52A29470 /* Prototype.swift */,
+				158820889940E29434CFF37F /* RemoteView.swift */,
+				2711BA2E0CDFE931CD931235 /* Theme.swift */,
+				94E6C330E61858214E1597BD /* Provisioning */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4B5A0B8D5DBE0DC5B80CCFDE /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				50D7683D1D2FD91A18F6C76B /* iPhone */,
+				44349C71E7EF9F172C071257 /* Shared */,
+				9FDC30A20FD5688991B225CB /* Watch */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		50D7683D1D2FD91A18F6C76B /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				3F36778CD98D90395D24A073 /* BulbAssistApp.swift */,
+				36931178ED125BA0FD42020E /* SetupView.swift */,
+				1A2C2A8CE98B5152B0AFE38B /* WelcomeView.swift */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		6162A89B3976F4C2873B5152 /* WatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182BEB8B5C455B35930CA1A1 /* WatchRemoteUITests.swift */,
+			);
+			path = WatchUITests;
+			sourceTree = "<group>";
+		};
+		94E6C330E61858214E1597BD /* Provisioning */ = {
+			isa = PBXGroup;
+			children = (
+				952654E563DD7AC26A0E6D16 /* KeychainCredentialStore.swift */,
+				190EDCEB667507F93FF3A0E2 /* WatchConnectivityBridge.swift */,
+			);
+			path = Provisioning;
+			sourceTree = "<group>";
+		};
+		9FDC30A20FD5688991B225CB /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				4478E7FC302B1591CFBDB90E /* BulbAssistWatchApp.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		A4CDEDF3A61C51F07AC9DF2E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3F070A84FCB42AE9F13C259B /* Base.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		ACC3F4EF2E5D2E11B13C3C51 = {
+			isa = PBXGroup;
+			children = (
+				4B5A0B8D5DBE0DC5B80CCFDE /* Apps */,
+				A4CDEDF3A61C51F07AC9DF2E /* Config */,
+				D74BC5DAD56356BE268BB458 /* Packages */,
+				C1BA877DCA5560429AAEE621 /* Tests */,
+				04FB5C3D4413421A3E596FF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2BEAF1FFE13697EAD7086B6 /* iPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66DADE5A2DE2344D9D2E2313 /* CompanionSetupUITests.swift */,
+			);
+			path = iPhoneUITests;
+			sourceTree = "<group>";
+		};
+		C1BA877DCA5560429AAEE621 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2BEAF1FFE13697EAD7086B6 /* iPhoneUITests */,
+				C8A6B9B974D87C4D5FC6334B /* PlatformTests */,
+				6162A89B3976F4C2873B5152 /* WatchUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C8A6B9B974D87C4D5FC6334B /* PlatformTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E41A54BF87FF067C75C06B /* PlatformContractTests.swift */,
+				A0E4C54183321B6723DB3823 /* ProvisioningPlatformTests.swift */,
+			);
+			path = PlatformTests;
+			sourceTree = "<group>";
+		};
+		D74BC5DAD56356BE268BB458 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				69EF64E4954EBDA627148257 /* BulbCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3132670AD47139CCBE92847F /* BulbAssistWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00692A8D874B80CB6847F767 /* Build configuration list for PBXNativeTarget "BulbAssistWatch" */;
+			buildPhases = (
+				7F2F899356AA11E67D5D3696 /* Sources */,
+				22D99078038A033AA7F84377 /* Resources */,
+				6896F97D7EA540C6072DDE74 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulbAssistWatch;
+			packageProductDependencies = (
+				19F987208E07933044A2E059 /* BulbCore */,
+			);
+			productName = BulbAssistWatch;
+			productReference = CE18FCABE8E999B2D6C80FAE /* BulbAssistWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		813E6D2C6CDF209DDA803A4C /* BulbAssistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9865B19BF2D517CC677E0B3 /* Build configuration list for PBXNativeTarget "BulbAssistUITests" */;
+			buildPhases = (
+				1A74EF981CFFA23CB1CC7E04 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F288BAE34DCF3EF540A19B3 /* PBXTargetDependency */,
+			);
+			name = BulbAssistUITests;
+			productName = BulbAssistUITests;
+			productReference = 416424535E90E92190F98D01 /* BulbAssistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DB1FB865A2A9EB593088E31C /* BulbAssistWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 135449ADBFE2CA014DED0DC9 /* Build configuration list for PBXNativeTarget "BulbAssistWatchUITests" */;
+			buildPhases = (
+				64619C8612D540D851947679 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2BE2655A54B19F95D53B89E /* PBXTargetDependency */,
+			);
+			name = BulbAssistWatchUITests;
+			productName = BulbAssistWatchUITests;
+			productReference = 68E0263C78F725401F635A80 /* BulbAssistWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EB75E0B723AC7643EE6976EE /* BulbAssistPlatformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA8254FD839CA2A7C813383 /* Build configuration list for PBXNativeTarget "BulbAssistPlatformTests" */;
+			buildPhases = (
+				922648110CE22726FA73039B /* Sources */,
+				34D61DB46B73D2EFF93A2763 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C259D8E779698392085A7D8F /* PBXTargetDependency */,
+			);
+			name = BulbAssistPlatformTests;
+			packageProductDependencies = (
+				6A38B1A13EC0CA33B61F4C26 /* BulbCore */,
+			);
+			productName = BulbAssistPlatformTests;
+			productReference = 1D2CD367E649573DC34E5A15 /* BulbAssistPlatformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBCDE3DAF6FEE6F34FEA2537 /* BulbAssist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FE114EAC03CE02459EA6D2 /* Build configuration list for PBXNativeTarget "BulbAssist" */;
+			buildPhases = (
+				E7AF9144EB53CEB2B91EEDEC /* Sources */,
+				67F32D2B11C05C13F31A1188 /* Resources */,
+				2629CF8287E837A47D28A7FE /* Frameworks */,
+				E8AB18969D855B1FD3CC53AC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E9B71EC5B5A30382784CCCF /* PBXTargetDependency */,
+			);
+			name = BulbAssist;
+			packageProductDependencies = (
+				75A6D590134067D1098DBC5F /* BulbCore */,
+			);
+			productName = BulbAssist;
+			productReference = F3476D690786B0C0324DCF94 /* BulbAssist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B53634F2EFA6F00FC4F5742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3132670AD47139CCBE92847F = {
+						ProvisioningStyle = Automatic;
+					};
+					813E6D2C6CDF209DDA803A4C = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBCDE3DAF6FEE6F34FEA2537;
+					};
+					DB1FB865A2A9EB593088E31C = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3132670AD47139CCBE92847F;
+					};
+					EB75E0B723AC7643EE6976EE = {
+						ProvisioningStyle = Automatic;
+					};
+					EBCDE3DAF6FEE6F34FEA2537 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 24128C218F4E60924EBAD257 /* Build configuration list for PBXProject "BulbAssist" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = ACC3F4EF2E5D2E11B13C3C51;
+			packageReferences = (
+				966A22F43D6FEF648AAEA500 /* XCLocalSwiftPackageReference "Packages/BulbCore" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBCDE3DAF6FEE6F34FEA2537 /* BulbAssist */,
+				EB75E0B723AC7643EE6976EE /* BulbAssistPlatformTests */,
+				813E6D2C6CDF209DDA803A4C /* BulbAssistUITests */,
+				3132670AD47139CCBE92847F /* BulbAssistWatch */,
+				DB1FB865A2A9EB593088E31C /* BulbAssistWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D99078038A033AA7F84377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5228ABC11F889D10114630 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F32D2B11C05C13F31A1188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DE380ADF8A9424E16556E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A74EF981CFFA23CB1CC7E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A880B137B23C87E27F0794A /* CompanionSetupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64619C8612D540D851947679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B744D235E827722684070E2F /* WatchRemoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2F899356AA11E67D5D3696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6397C4C17EB7AE34FC7B798 /* AppRuntime.swift in Sources */,
+				1D7A8931304EDA56226BE05E /* BrightnessDial.swift in Sources */,
+				BA5ADE6FC34410968CFEE2F3 /* BulbAssistWatchApp.swift in Sources */,
+				2A32CFDC24FA4281E8FB3956 /* ConnectionView.swift in Sources */,
+				45A183C45E6857727F03D137 /* KeychainCredentialStore.swift in Sources */,
+				46E05D070894FF3FC9F2A3AB /* Prototype.swift in Sources */,
+				26BE77A1C9142B04DE8C2856 /* RemoteView.swift in Sources */,
+				94B0DE6FBA7030C8FB0D1C40 /* Theme.swift in Sources */,
+				1822E1A17B2349DB41EA8CCD /* WatchConnectivityBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922648110CE22726FA73039B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3ECF67D25B6411B25E82A94 /* PlatformContractTests.swift in Sources */,
+				326A5B26C2D3F67353FE84EF /* ProvisioningPlatformTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AF9144EB53CEB2B91EEDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B7DD16A1137686E997C5A8 /* AppRuntime.swift in Sources */,
+				8A2A7B6BB2AEBE362EAD8189 /* BrightnessDial.swift in Sources */,
+				3D42CF504C48186347A5F990 /* BulbAssistApp.swift in Sources */,
+				3EB47A00AFBBAB0FDED3B8F5 /* ConnectionView.swift in Sources */,
+				C1593199B5A157C4D22970BE /* KeychainCredentialStore.swift in Sources */,
+				6B09D3D0910ED2FA012EAFF2 /* Prototype.swift in Sources */,
+				F59BBC412C8F86D73F368D9E /* RemoteView.swift in Sources */,
+				D59491C3EBBFA73E69A0CCD3 /* SetupView.swift in Sources */,
+				2D0EED191AB94251FE50784F /* Theme.swift in Sources */,
+				E02D1D7E6A90936A0C5FDFBB /* WatchConnectivityBridge.swift in Sources */,
+				54392BD8D864C7950C442EF7 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E9B71EC5B5A30382784CCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3132670AD47139CCBE92847F /* BulbAssistWatch */;
+			targetProxy = 119A6AB2062FA44B10736086 /* PBXContainerItemProxy */;
+		};
+		4F288BAE34DCF3EF540A19B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBCDE3DAF6FEE6F34FEA2537 /* BulbAssist */;
+			targetProxy = B8A400807748DA971F431735 /* PBXContainerItemProxy */;
+		};
+		C259D8E779698392085A7D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBCDE3DAF6FEE6F34FEA2537 /* BulbAssist */;
+			targetProxy = F78016CD8C148A8A0660AB5B /* PBXContainerItemProxy */;
+		};
+		F2BE2655A54B19F95D53B89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3132670AD47139CCBE92847F /* BulbAssistWatch */;
+			targetProxy = 14A610CBB182924B8F79AA0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03029C4AFB97DE23222D1D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.platformtests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BulbAssist.app/BulbAssist";
+			};
+			name = Release;
+		};
+		11EE4FEDD38C8ECC9DB98305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.watchkitapp.uitests";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = BulbAssistWatch;
+			};
+			name = Debug;
+		};
+		2085C836F56F29067542742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.watchkitapp.uitests";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = BulbAssistWatch;
+			};
+			name = Release;
+		};
+		4B4C079FE85EF6780A858077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F070A84FCB42AE9F13C259B /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		6DCC35974D3AE2D5AD37757C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bulb Assist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		75FF6E95D9BB724FD7C8805F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.uitests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BulbAssist;
+			};
+			name = Release;
+		};
+		AD62ABA30B25D9548C7CC454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.uitests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BulbAssist;
+			};
+			name = Debug;
+		};
+		BC45D884C382D285576F3590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F070A84FCB42AE9F13C259B /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		BEE6EA3B9B18DD2FD747ACD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.platformtests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BulbAssist.app/BulbAssist";
+			};
+			name = Debug;
+		};
+		CDEBF28700661A7879E0ED8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bulb Assist";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.watchkitapp";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		DCB39BA965C42F35A92D8618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bulb Assist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EF2044F3C632A48A286CB999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bulb Assist";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.watchkitapp";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00692A8D874B80CB6847F767 /* Build configuration list for PBXNativeTarget "BulbAssistWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEBF28700661A7879E0ED8B /* Debug */,
+				EF2044F3C632A48A286CB999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		11FE114EAC03CE02459EA6D2 /* Build configuration list for PBXNativeTarget "BulbAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCC35974D3AE2D5AD37757C /* Debug */,
+				DCB39BA965C42F35A92D8618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		135449ADBFE2CA014DED0DC9 /* Build configuration list for PBXNativeTarget "BulbAssistWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EE4FEDD38C8ECC9DB98305 /* Debug */,
+				2085C836F56F29067542742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24128C218F4E60924EBAD257 /* Build configuration list for PBXProject "BulbAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC45D884C382D285576F3590 /* Debug */,
+				4B4C079FE85EF6780A858077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A9865B19BF2D517CC677E0B3 /* Build configuration list for PBXNativeTarget "BulbAssistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD62ABA30B25D9548C7CC454 /* Debug */,
+				75FF6E95D9BB724FD7C8805F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CBA8254FD839CA2A7C813383 /* Build configuration list for PBXNativeTarget "BulbAssistPlatformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE6EA3B9B18DD2FD747ACD5 /* Debug */,
+				03029C4AFB97DE23222D1D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		966A22F43D6FEF648AAEA500 /* XCLocalSwiftPackageReference "Packages/BulbCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/BulbCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19F987208E07933044A2E059 /* BulbCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BulbCore;
+		};
+		6A38B1A13EC0CA33B61F4C26 /* BulbCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BulbCore;
+		};
+		75A6D590134067D1098DBC5F /* BulbCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BulbCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7B53634F2EFA6F00FC4F5742 /* Project object */;
+}

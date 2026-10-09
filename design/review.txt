@@ -1,0 +1,41 @@
+Bulb Assist design review — 2026-10-08
+
+Artifact: bulb-assist.pen (editable Pen canvas)
+Scope: 15 Watch states/layouts, 9 iPhone screens; example device data only.
+
+[x] Primary Watch screen makes Crown brightness and on-screen power distinct.
+[x] Off-state Crown selection remains local until Turn on.
+[x] Pending command, unconfirmed outcome, offline, setup, and auth states are distinct.
+[x] Power remains available when white-light dimming is unavailable.
+[x] Companion setup waits for Watch acknowledgement and a direct state read.
+[x] Key replacement/removal and their pending Watch states are documented.
+[x] Compact 176 x 215 and larger-text Watch layouts visually reviewed.
+[x] Main Watch actions are at least 44 points high; iPhone primary actions are 54.
+[x] Root frames do not overlap; no unfinished placeholder frames remain.
+[x] Screens visually reviewed for clipped text, broken layout, alignment, and spacing.
+[x] Core foreground/background text color pairs checked numerically below.
+
+Implementation handoff:
+- Canvas flow notes cover empty results, network loss, cooldown, and keyboard states.
+- Expand title/back/reveal-control hit regions without overlapping another action.
+- Dial arc is decorative; brightness and power remain readable without color.
+- Use native system typography/controls when implementing SwiftUI; Inter is the design reference.
+- Phone frames expand to show their full content; implement adaptive safe areas and scrolling.
+- Navigation is annotated, not an executable prototype.
+- The Pen bounds visitor produced inconsistent nested clipping reports despite intact renders;
+  nested visual containment was checked in rendered screenshots. Root overlap checks passed.
+- Real-device usability and Crown behavior still require implementation tests.
+- Scope update 2026-10-09: no dedicated VoiceOver work or accessibility audit;
+  additional accessibility work requires a verified applicable Apple requirement.
+
+Text contrast checks:
+white on black: 19.76:1
+muted on black: 9.11:1
+muted on phone: 8.14:1
+muted on surface: 7.55:1
+muted on raised: 6.40:1
+accent on phone: 11.85:1
+success on black: 12.19:1
+danger on phone: 9.09:1
+ink on accent: 10.99:1
+ink on danger: 8.43:1

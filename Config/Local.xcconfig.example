@@ -1,0 +1,4 @@
+// Copy to Local.xcconfig for physical installation; do not commit that file.
+// Use your own Apple development team and a unique reverse-domain namespace.
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+BULB_ASSIST_BUNDLE_ID_PREFIX = com.yourname

@@ -1,0 +1,120 @@
+name: BulbAssist
+options:
+  minimumXcodeGenVersion: 2.42.0
+  deploymentTarget:
+    iOS: "26.0"
+    watchOS: "26.0"
+  createIntermediateGroups: true
+configFiles:
+  Debug: Config/Base.xcconfig
+  Release: Config/Base.xcconfig
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    ASSETCATALOG_COMPILER_APPICON_NAME: ""
+packages:
+  BulbCore:
+    path: Packages/BulbCore
+targets:
+  BulbAssist:
+    type: application
+    platform: iOS
+    sources:
+      - Apps/iPhone
+      - Apps/Shared
+    settings:
+      base:
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        PRODUCT_BUNDLE_IDENTIFIER: $(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Bulb Assist
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+    dependencies:
+      - package: BulbCore
+      - target: BulbAssistWatch
+        embed: true
+  BulbAssistWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - Apps/Watch
+      - Apps/Shared
+    settings:
+      base:
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        PRODUCT_BUNDLE_IDENTIFIER: $(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.watchkitapp
+        TARGETED_DEVICE_FAMILY: "4"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Bulb Assist
+        INFOPLIST_KEY_WKApplication: YES
+        INFOPLIST_KEY_WKCompanionAppBundleIdentifier: $(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist
+    dependencies:
+      - package: BulbCore
+  BulbAssistUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - Tests/iPhoneUITests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: BulbAssist
+    dependencies:
+      - target: BulbAssist
+  BulbAssistPlatformTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - Tests/PlatformTests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.platformtests
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - package: BulbCore
+      - target: BulbAssist
+  BulbAssistWatchUITests:
+    type: bundle.ui-testing
+    platform: watchOS
+    sources:
+      - Tests/WatchUITests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BULB_ASSIST_BUNDLE_ID_PREFIX).BulbAssist.watchkitapp.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: BulbAssistWatch
+    dependencies:
+      - target: BulbAssistWatch
+schemes:
+  BulbAssist:
+    build:
+      targets:
+        BulbAssist: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - name: BulbAssistPlatformTests
+          parallelizable: false
+        - name: BulbAssistUITests
+          parallelizable: false
+  BulbAssistWatch:
+    build:
+      targets:
+        BulbAssistWatch: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - name: BulbAssistWatchUITests
+          parallelizable: false

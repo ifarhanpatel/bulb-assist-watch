@@ -1,0 +1,547 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "d5f2463df93a3a0120ba512904778badf44a138ccdf0c24b0c36558cbefcf8cc"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/compatibility.md",
+      "sha256": "48b20da2b312bffe0fe9dd5eb09b9d48fb1a7310c6f2b1237fa2a58f48844c62"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "8e26890c64cc82fa609910ab10357533de656b3c984ab71c31a7c56f85cdb5b6"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "f131a1555707bdcee167c2da7fbd4bc5bff04553eed9a8daff458cd80067d87a"
+    },
+    {
+      "path": ".gitleaks.toml",
+      "sha256": "9cd46ab5ed1126788307111c2680f602021fd6124c6e6395a4ca3e5e2fe39914"
+    },
+    {
+      "path": "Apps/Shared/AppRuntime.swift",
+      "sha256": "9f72e5a0e7b240b888017f239064f3f84a17427e73839156770e37ee2a3f12e5"
+    },
+    {
+      "path": "Apps/Shared/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "3073182d8ee866bbc8c8a33f218d489f314bcdb51ef74eb5046504bea6e25a8a"
+    },
+    {
+      "path": "Apps/Shared/Assets.xcassets/AppIcon.appiconset/bulb-assist-1024.png",
+      "sha256": "0c28114fffe8e2fb42d0cca677c96674cde0aebeacf70bff7de86fb51956b683"
+    },
+    {
+      "path": "Apps/Shared/Assets.xcassets/Contents.json",
+      "sha256": "f5fb0e1f3a8142892ed092efb5955c1c2cc537003a89ad7bbdb9dade7fe8985f"
+    },
+    {
+      "path": "Apps/Shared/BrightnessDial.swift",
+      "sha256": "019c55e906e7b80d468e570d7b502c7e9750046d8447f989865673934239abe3"
+    },
+    {
+      "path": "Apps/Shared/ConnectionView.swift",
+      "sha256": "21cf5f6805794179da2bb4d590d57d4a6cbb7502311614ea754f059010f74697"
+    },
+    {
+      "path": "Apps/Shared/Prototype.swift",
+      "sha256": "d94fa06811b63cad71539a7fc4b89b6156df2d5b265359440053f0380d1eda32"
+    },
+    {
+      "path": "Apps/Shared/Provisioning/KeychainCredentialStore.swift",
+      "sha256": "5e6367f084f6fa6196c497f353b118323a877d1f82259f5b5d47a9b19a93fb8b"
+    },
+    {
+      "path": "Apps/Shared/Provisioning/WatchConnectivityBridge.swift",
+      "sha256": "19203290cd88dfd8391c16ca3097feddcf4abf13f03bce4dd8b94e30ef45e145"
+    },
+    {
+      "path": "Apps/Shared/RemoteView.swift",
+      "sha256": "ccd2e566502153f3a1010bc09094d7b89e332d438f7debc3c4c232f022dc2c70"
+    },
+    {
+      "path": "Apps/Shared/Theme.swift",
+      "sha256": "41b5ef427c0861f9b1278cbaa70c855451f8368cfab97a671b62715ff55a99dc"
+    },
+    {
+      "path": "Apps/Watch/BulbAssistWatchApp.swift",
+      "sha256": "e711f46b7fe428785af7d6eb1bd1ef5fa22ec72b3eea1671afec79841e9bcfd9"
+    },
+    {
+      "path": "Apps/iPhone/BulbAssistApp.swift",
+      "sha256": "274362a6e0bc13b1c800500441323b11d9efeb4eaeda644ca0781e0abefeeb2c"
+    },
+    {
+      "path": "Apps/iPhone/SetupView.swift",
+      "sha256": "8d8a6ad41e749566498644359990145317da07c2cf9b0e26f657efd3b13de6ea"
+    },
+    {
+      "path": "Apps/iPhone/WelcomeView.swift",
+      "sha256": "27fdecf1448e682b9461362cb71add082a28845083f7d9abfe5404c74d174ad1"
+    },
+    {
+      "path": "BulbAssist.xcodeproj/project.pbxproj",
+      "sha256": "d5363f92e2b506c5961f2882a75e3529a932cbd9bd9a235868e56f26c0ecb15b"
+    },
+    {
+      "path": "BulbAssist.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "path": "BulbAssist.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "sha256": "97704a8960b4facceef54397a08fb5d0a456247c3627359215aa2a27df22656c"
+    },
+    {
+      "path": "BulbAssist.xcodeproj/xcshareddata/xcschemes/BulbAssist.xcscheme",
+      "sha256": "03e05d35dfb953e43451cc36aa9a691b9acdc26f3aff4480a07c4df94c5fbe0a"
+    },
+    {
+      "path": "BulbAssist.xcodeproj/xcshareddata/xcschemes/BulbAssistWatch.xcscheme",
+      "sha256": "e797f07d9f90e595e2f4cbd4826d25dae1b78e3baa424c239f6bc1c0e73fdb67"
+    },
+    {
+      "path": "CONTEXT.md",
+      "sha256": "692842432ce31ba516a7306239f14f58c35cae4c865c726e6e41b2de0a72a9b0"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "f943558f4c14e0ebcf5020fecd824a1829347b0ab0c3849c09e010d9642772ce"
+    },
+    {
+      "path": "Config/Base.xcconfig",
+      "sha256": "f164f5356d8502a4843efe0724e17c624bd6f3e15acd4641808b4f91507247c5"
+    },
+    {
+      "path": "Config/Local.xcconfig.example",
+      "sha256": "a79f726704a9987840bbff8b76189e91b9c5eec9e3b206765f78122ac6000db8"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0342795aef34ec5c6372bc47ae0d351017a3ed674a52731360589ce3d93bcc42"
+    },
+    {
+      "path": "Makefile",
+      "sha256": "e38b9247987f5a3b27a9f24fe15250791d94a09b66b3a47ab8eceb5ebadc3897"
+    },
+    {
+      "path": "PRIVACY.md",
+      "sha256": "3c5bead42aabc45fc0a2b0851beca5ffe702d836a4d84aca4d1d3f8326a5e35c"
+    },
+    {
+      "path": "Packages/BulbCore/Package.swift",
+      "sha256": "e7e47e4d6c4c99116a1b9582b65eb428b2265382d3f6f3c8c59a8ec49f2e97ac"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/Bulb.swift",
+      "sha256": "32fac2ce76c153eb01e26b18e592d5b7c6f035fc57f2423f24d2da49f8fc3401"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/BulbRemote.swift",
+      "sha256": "1f8bbc58195b3d7503606ee4d95d2a8dfbd1ecdcbe2087a881bd7cc599a1305e"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/Contracts/ControlPolicy.swift",
+      "sha256": "eb72ebb2ac3088c3b61cc980124ebba6483ef1429d1e0eea856e509e9c8aaf40"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/Contracts/SetupContracts.swift",
+      "sha256": "bb48c922ca37278a8047f6c7a6cf5725056b8ec30404b48a1b9fc21852ac1220"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/ControlMeasurements.swift",
+      "sha256": "bf022cb6c14b53a63629de2aa594438c76fe8ac6dcb726b9626dfee9aab33db3"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/Setup/CompanionSetup.swift",
+      "sha256": "2e46c3b8e34bf2f49f5ea6cfe537664a8250cd231809bb364260118cd8b12377"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/Setup/MemoryCredentialStore.swift",
+      "sha256": "f06d08847f44426d45add80c4d87d4285613472e708c52152590e710e0e94a47"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/Setup/ProvisioningReceiver.swift",
+      "sha256": "6e2541975d6dfbf173a7947dc3c933fc675fd324a375f956ed3c991a04743fb5"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/SimulatedBulbController.swift",
+      "sha256": "a0fb7487d18f35a16c1e77f93df077e553dff5b72731319b1b473e658eaab268"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/Tuya/TuyaBulbController.swift",
+      "sha256": "7810f7dee5af56c09b01eca84fd59fcfef970b9a9cda57ee8917e5ed4b7c1b22"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/Tuya/TuyaClient.swift",
+      "sha256": "8cf3e469fb918d1faad963befe793fe2bce0bdfb73f14dceba135d269786dec1"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/Tuya/TuyaDiscovery.swift",
+      "sha256": "6d2723a53675e5dac545f91710e5f75b12eb56119d1892b2bd86d24f32e9d920"
+    },
+    {
+      "path": "Packages/BulbCore/Sources/BulbCore/Tuya/TuyaHTTPTransport.swift",
+      "sha256": "d519a3980a6f16494d6aeaced6347c7c970655fb5933ab65f7f40a2530808910"
+    },
+    {
+      "path": "Packages/BulbCore/Tests/BulbCoreTests/BulbRemoteTests.swift",
+      "sha256": "4297873b9ff566d7e1e854c149de54d3baaa4eca1749c0d594ff5e0bcfff04d1"
+    },
+    {
+      "path": "Packages/BulbCore/Tests/BulbCoreTests/ControlMeasurementTests.swift",
+      "sha256": "627afe2f1a7006436f873ba4d78eb248455bcabede3507104bbd2cf30445d8a8"
+    },
+    {
+      "path": "Packages/BulbCore/Tests/BulbCoreTests/ControlTestDoubles.swift",
+      "sha256": "2d2ea76cfbb99ae34cdb53e0e9a34122b1ab358b7c533035f1b3cc626a294689"
+    },
+    {
+      "path": "Packages/BulbCore/Tests/BulbCoreTests/CoordinatorTests.swift",
+      "sha256": "c796354004dc712291c325de07ed167c7e35566f5609810868daaa1c22a2fddf"
+    },
+    {
+      "path": "Packages/BulbCore/Tests/BulbCoreTests/SetupLifecycleTests.swift",
+      "sha256": "fb600ae43b9b27294fc67c1a77e6864c9a23a45be1e9d7c5a81056bc78d6a5c4"
+    },
+    {
+      "path": "Packages/BulbCore/Tests/BulbCoreTests/SharedContractTests.swift",
+      "sha256": "e8f52e61e4e86085550ea741b852c5a0f026dd87cffcc3111567a842a2154731"
+    },
+    {
+      "path": "Packages/BulbCore/Tests/BulbCoreTests/Tuya/TuyaAdapterTests.swift",
+      "sha256": "99ce2804cde2a9397e6949f0b0773bc46de458857425ea77f304ffb2ee540d0a"
+    },
+    {
+      "path": "Packages/BulbCore/Tests/BulbCoreTests/Tuya/TuyaFixtures.swift",
+      "sha256": "519e42d342ec9e3e98a33f2b5a300a87dd09fa1cc22c2ad9cb8cc441f7ee5db5"
+    },
+    {
+      "path": "Packages/BulbCore/Tests/BulbCoreTests/TuyaCoordinatorIntegrationTests.swift",
+      "sha256": "3d470f69eb1d3803a970440f516074c2b1eaf5bc9903154ef6aec0d4de9ca72a"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9ea177ada198a00c0a06f183383745f0f5a46e3696dcc0a80b85f9944f00d96d"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "99627a5c537daf153cf49dfe8f595266e5d9d74e1ababc8d5513c82d81ef136e"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "60c549421db583f9f717f9989461287c409f9be7e0beee179e56d4e75ee525e4"
+    },
+    {
+      "path": "Tests/PlatformTests/PlatformContractTests.swift",
+      "sha256": "4741c736ea9247dcef5d6e5d1c6956a442e41798f28c009bf22c183fbb98df46"
+    },
+    {
+      "path": "Tests/PlatformTests/ProvisioningPlatformTests.swift",
+      "sha256": "62062cc3af92f05066c390af5aff7d4b9772a9a595de75a3dfb4ffc7c6fe390a"
+    },
+    {
+      "path": "Tests/WatchUITests/WatchRemoteUITests.swift",
+      "sha256": "c5a64ce155bc91d4b12e10dc5a04161b601f06b8f3d2e091ce52d7122b972d2b"
+    },
+    {
+      "path": "Tests/iPhoneUITests/CompanionSetupUITests.swift",
+      "sha256": "9ea57b5da37dc6b048f2af64429f9f1df7bd0e1e7474baa531c9daf427e79612"
+    },
+    {
+      "path": "design/README.md",
+      "sha256": "f63067dbb9027291f22f1ce454b018cca7cba5f214e62d73276dfc8ff5b51426"
+    },
+    {
+      "path": "design/branding/bulb-assist-source.png",
+      "sha256": "a41624b301f3edce8318e2febe40ca7d2cf0a8eb961e967d4cf2de9fd108a1be"
+    },
+    {
+      "path": "design/branding/generation.txt",
+      "sha256": "6e98417172abc3154e4e5dbe640e85be88cc26b0ffd36e948d3b8e8a4b90bf7d"
+    },
+    {
+      "path": "design/exports/iphone-connected.png",
+      "sha256": "0f4efbd76239b4e82ec448f509de547d475674f63b71ba104af6d403ea1ce530"
+    },
+    {
+      "path": "design/exports/iphone-welcome.png",
+      "sha256": "f7f9b7c3d91f5ced42a459d2dc1b726370e7fb49bb567820606f3db244192f96"
+    },
+    {
+      "path": "design/exports/watch-off-selection.png",
+      "sha256": "9c0e5623a32b9deca1ab89405dc81dff2ec2f3f0e4f5772e82d56390a366810b"
+    },
+    {
+      "path": "design/exports/watch-on.png",
+      "sha256": "ebfa66548374d610502c5e7fbab083fa5ab95be4e7abc543facbe64411da21a5"
+    },
+    {
+      "path": "design/exports/watch-overview.png",
+      "sha256": "4647819c16ea651dba6865a16a248069563048af1407da52838b648420f1b705"
+    },
+    {
+      "path": "design/licenses/inter-OFL.txt",
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "path": "design/licenses/lucide-LICENSE",
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "design/review.txt",
+      "sha256": "3bce1ec71e9e9e48c237b5cc10ef96d3a64d8cab3afb763c3a46d78f820dd59a"
+    },
+    {
+      "path": "docs/adr/0001-use-spec-driven-development.md",
+      "sha256": "2221c041e3288d663a7a0a7f51f12a216cc840005d88741e209411f4abf93e55"
+    },
+    {
+      "path": "docs/adr/0002-watch-control-with-companion-setup.md",
+      "sha256": "4234bce17e5003aeb282fcc412117ee07e875bbec3e86551b384954aa02b6610"
+    },
+    {
+      "path": "docs/compatibility.md",
+      "sha256": "7b5917b08e08ae002eccb7e5bdc912281c2f2f72016203d32400cfcb40650f50"
+    },
+    {
+      "path": "docs/release.md",
+      "sha256": "6e1d53a977accc8ac89395408f31b533a831bde32f97542e6ce26c236f1ee09e"
+    },
+    {
+      "path": "docs/research/ns9001-communication-methods.md",
+      "sha256": "d62391d82e491a509f830db427637bcebb29a7ca76a6a00b6abd0982c76d354f"
+    },
+    {
+      "path": "docs/research/open-source-legal-review.md",
+      "sha256": "6a84c2f9fb4b15fa1794275beee64551e476f94b16609eeeadc9167d457b20ce"
+    },
+    {
+      "path": "docs/research/open-source-privacy-review.md",
+      "sha256": "73682dcb5dd5e2186a545e64342ae98d0c719d2ca03c1004224d3b9a1b913257"
+    },
+    {
+      "path": "docs/research/project-feasibility.md",
+      "sha256": "9db27b8cb60c324a144a35e64018ae09472ac547d7b882e20b0976f7ac7b1b95"
+    },
+    {
+      "path": "docs/research/tuya-api-check.json",
+      "sha256": "2c6ee97f002505ec55495a19c035aa9cdeb1f6c6cdef82d9e420a13a0bed2560"
+    },
+    {
+      "path": "docs/research/tuya-control-check.json",
+      "sha256": "a7aafa2057524f000d55ffcc37df78bd87fcfc833006a148cd618d2925757591"
+    },
+    {
+      "path": "docs/setup.md",
+      "sha256": "296fc0a0283952c47d2897912fda8368a6fe3b48907cf3861cc069a72be113c2"
+    },
+    {
+      "path": "docs/specs/README.md",
+      "sha256": "70c253548c40f9eb5db7a57724daf49bee5a3cc545f7fa9e3dbd20b3a5a893af"
+    },
+    {
+      "path": "docs/specs/open-source-readiness.md",
+      "sha256": "7282268e5f44a9a6c2c068a14f0bf79e83ced4306db9b698290d82c06b6dd952"
+    },
+    {
+      "path": "docs/specs/parallel-delivery-plan.md",
+      "sha256": "078c1cbe0c4f300c8496ed83bdc5fc6716170858ef53c5d16a3e5edc51febbea"
+    },
+    {
+      "path": "docs/specs/product-spec.md",
+      "sha256": "24bf38282e83141ca2c25d726803e0e76630df44d558552605867300f220344c"
+    },
+    {
+      "path": "docs/specs/tasks.md",
+      "sha256": "e80d7a4befa6d5c3fc961ed78a229d7dd6f0ab232f3547a51a5064c492ac5e17"
+    },
+    {
+      "path": "docs/specs/technical-spec.md",
+      "sha256": "15a34a37040eacb064abde2f5214a982a986aed603a0d15b4fd6110a06ffb58a"
+    },
+    {
+      "path": "docs/validation/m1-simulator.md",
+      "sha256": "2ce87309579d8436fb1d239482bfde90681398daa8e0198413e95d5ea6ea2310"
+    },
+    {
+      "path": "docs/validation/m4/hardware-run.md",
+      "sha256": "e30436deaf213946d78dfa6d09649047f56f74e779c7419015fa28f1ee699ff7"
+    },
+    {
+      "path": "docs/validation/m4/screenshots/measurements-reset.png",
+      "sha256": "0d69362c81d89211907256039b32b668f5b0f5bb2ec83b44b4cf59cdc213bdab"
+    },
+    {
+      "path": "docs/validation/open-source-readiness.md",
+      "sha256": "ab81adcca32031b0f7167d6a31e432a2291f1d0a3b9a6f64d57d9d170cacd569"
+    },
+    {
+      "path": "docs/validation/parallel/m2-integration.md",
+      "sha256": "ef2881ec23ec95cbb5a1600d526331108133fecc9f7b38d4f5442c4f323430ac"
+    },
+    {
+      "path": "docs/validation/parallel/native-integration.md",
+      "sha256": "39c114d17e13da92809956389bd75ee51f5403441b17f5c936941448d69b6e19"
+    },
+    {
+      "path": "docs/validation/parallel/screenshots/iphone-fixture-connected.png",
+      "sha256": "fd95faec3209f1d17bb44cb993634b1579ad45daef9cce3cb0801c6ada9ccfad"
+    },
+    {
+      "path": "docs/validation/parallel/screenshots/iphone-fixture-pending.png",
+      "sha256": "c8cc10041b6e883c1334847b9093bf04df531a9bcb15d9e1dfea89f5a9fdeb40"
+    },
+    {
+      "path": "docs/validation/parallel/screenshots/iphone-fixture-removed.png",
+      "sha256": "66939d7cb2eaa4de64b9d57671fde4abd284513f2acc18994d4dc7def3bd0df7"
+    },
+    {
+      "path": "docs/validation/parallel/screenshots/iphone-fixture-replaced.png",
+      "sha256": "a9a6e28f23258fcd8a7fb718e2cf0535c568b08b3c130f8093de3e958fb4242b"
+    },
+    {
+      "path": "docs/validation/parallel/screenshots/iphone-key-error.png",
+      "sha256": "79ba2161367026fba1022a61702097705e18d6463dfe97736cf9f3620e7d5f14"
+    },
+    {
+      "path": "docs/validation/parallel/screenshots/m2-41mm-control.png",
+      "sha256": "1318eefc7d4bf66c5810ce2adfe8ab9ffaddc59e208526a2f966b201f85fe230"
+    },
+    {
+      "path": "docs/validation/parallel/screenshots/m2-41mm-large-cooldown.png",
+      "sha256": "6945f7a32cc35e8291c616de7d2aad320b9c97d059c0dacb0de9d7facb0ad64e"
+    },
+    {
+      "path": "docs/validation/parallel/screenshots/watch-configured-fixture.png",
+      "sha256": "1a0da3f836ab9010f3c0afbe427b1b5578c6147e79ea78410b834b19b0d7bf72"
+    },
+    {
+      "path": "docs/validation/parallel/screenshots/watch-large-recovery-action.png",
+      "sha256": "b2c8a0b706eb0d749f832a1e7d6768264d3a24a0ae4f9bf02b013f4a54771878"
+    },
+    {
+      "path": "docs/validation/parallel/screenshots/watch-power-off-dimming.png",
+      "sha256": "f688b5251d5c8c5c479eb511a69dbe77a423055cf6d11e985b0d757d32e66baa"
+    },
+    {
+      "path": "docs/validation/parallel/shared-contracts.md",
+      "sha256": "8f9ef5569065432b9ea3413eb6cb1cb54fc1050c783b7777ff92a7386b440638"
+    },
+    {
+      "path": "docs/validation/parallel/stream-a.md",
+      "sha256": "64a5d5eb2126a470af759e235a76a934ec423fc36256d6a90e191fef214cc3b1"
+    },
+    {
+      "path": "docs/validation/parallel/stream-b.md",
+      "sha256": "29454f8e510ebf2efc8b6006f53c175a14d1592c92c5453f37de1b0c5022fbd2"
+    },
+    {
+      "path": "docs/validation/parallel/stream-c.md",
+      "sha256": "7a2fc1cda1dba975528bf011a531a2dc8fccc2bae32106d3a1a65a4a17f52c9d"
+    },
+    {
+      "path": "docs/validation/screenshots/iphone-welcome.png",
+      "sha256": "cf471240cee691c8cdce503c30486a173af019071e64300d8e58ba0bb7f2b00c"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-41-large-text.png",
+      "sha256": "d3143da1676642ab5c914d09e5b448692a90120a570f1bc285a45bb9ee27652c"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-41-off.png",
+      "sha256": "d817085bab09201b72b076c2ba4db52eea76fe59c9ff712aaeea082f56b19152"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-41-recovery-scrolled.png",
+      "sha256": "e148121abd87210ed8aa25f951cbbeea78ba86f8779dc1556be84c747e7f3eea"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-41-timeout-large-text.png",
+      "sha256": "f9d1a806525ab2215b9e631e350b74c483afcff38d57f196576b4bd107a8ec45"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-connection-details.png",
+      "sha256": "24117d555afb97385db149b520aaad8685ca6d38b540a284af4130afc4d3352b"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-crown-after-details.png",
+      "sha256": "b5342e3cf7280604b5cf8f73ffb5605bf576061d2e5ed0600d116eb6cb415746"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-crown-after-power-off.png",
+      "sha256": "6aaf1f13e071850a78e70b4bb3e7faa260fe91785bd7b35664a83831c86d09fa"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-crown-after-power-on.png",
+      "sha256": "22b981a935c65b7e112fd0309c8c40ea9b116ad5eda8d19edaca350ff3c3d6c1"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-draft-applied.png",
+      "sha256": "b5342e3cf7280604b5cf8f73ffb5605bf576061d2e5ed0600d116eb6cb415746"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-large-text-recovery.png",
+      "sha256": "c0e32b79ff8d3561b77fc49e585143e80ac8f19ed5f6a83e3a6e53d2785cbd3a"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-off-draft.png",
+      "sha256": "946de6f88d23adcda8382da071e7c48f766c9e5bae649213f9423324bb13e6f8"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-offline.png",
+      "sha256": "431a75490274f66cb1c1af66ad5ac54f5ad9404a99c90c38f7948c32986b9633"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-on.png",
+      "sha256": "0aa3bb40b4fdfe1a4798d6099dfc82417e0a05aa6e4d891d142925dd291e26f5"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-ui-off-draft.png",
+      "sha256": "b5286434e07c85a83029fd355e3f7f166222f1a2dd7711be6867361c2c42a9f7"
+    },
+    {
+      "path": "docs/validation/screenshots/watch-45-ui-on-confirmed.png",
+      "sha256": "36f172aafcf49e961efc826c01d8aeafc67e6cb7bfb7da45db52e1c183b55e3f"
+    },
+    {
+      "path": "project.yml",
+      "sha256": "eb61be9eb764cf6552cfdfc511245dbc2b767b594bb6778638d376a4da3a1419"
+    },
+    {
+      "path": "scripts/check-docs.py",
+      "sha256": "102a08dc63614134a87bfe5fb911b33bd3f564c41670a53d4da8f40496f66d8b"
+    },
+    {
+      "path": "scripts/check-tuya-api.sh",
+      "sha256": "ada5284d23e673a303ea2983baa05a8224622386fe0c93818fb912b0a4a53a55"
+    },
+    {
+      "path": "scripts/export-source.py",
+      "sha256": "95aaccb9491e2fe6468d969aee79ba0b00279c626a8ee44d9a9cf83f81e076a4"
+    },
+    {
+      "path": "scripts/public-files.txt",
+      "sha256": "d1c4d4cace06f46f3d3a2e5d2f2f435e53e3dce19c1e3efb54f9b84351c8768c"
+    },
+    {
+      "path": "scripts/test-release-export.py",
+      "sha256": "cdf28593b09f16c2199ebb9e6ab477edcdcab833c4f6a5624db22948ff9e73b8"
+    },
+    {
+      "path": "scripts/test-tuya-control.sh",
+      "sha256": "349172350f6360545710e46ad0445cd9c207f8cdbecca5ed290d60fd1c023951"
+    },
+    {
+      "path": "scripts/tuya_api_probe.py",
+      "sha256": "10a5c42c58a2dad452427ac76bd4ec87857a2c637de767dd31f0009fd9fdda32"
+    },
+    {
+      "path": "scripts/tuya_control_test.py",
+      "sha256": "361913408ae6a7c153c6c94473a78edc57bc7a1f738ad84928ae1641d4d3f90c"
+    }
+  ],
+  "format": 1,
+  "note": "Hashes cover every source file except this generated manifest."
+}

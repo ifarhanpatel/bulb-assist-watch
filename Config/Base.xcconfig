@@ -1,0 +1,5 @@
+// Simulator builds use this namespace. Physical builds need your own prefix.
+BULB_ASSIST_BUNDLE_ID_PREFIX = org.example
+
+// Optional and ignored by Git. Never put an API key in a build setting.
+#include? "Local.xcconfig"

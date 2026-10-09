@@ -1,0 +1,16 @@
+Bulb Assist shared app icon
+Generated with the built-in image_gen tool on 2026-10-09.
+Artwork: bulb-assist-source.png (original); Apps/Shared/Assets.xcassets/AppIcon.appiconset/bulb-assist-1024.png (app master).
+The app master is a 1024 x 1024 opaque PNG, resized with macOS sips.
+Both iOS and watchOS use the same artwork; the OS applies the display mask.
+Platform reference: https://developer.apple.com/documentation/xcode/configuring-your-app-icon
+
+Generation prompt:
+Use case: logo-brand. Asset type: production app icon artwork shared by the Bulb Assist iPhone companion and Apple Watch remote. Create ONE finished square 1024 x 1024 image, not a presentation or mockup. Full-bleed opaque near-black charcoal background (#101216), no rounded-square boundary, no baked-in corner rounding. Center an elegant, distinctive warm amber (#FFC36B) lightbulb symbol that subtly communicates a brightness dimmer: bold clean bulb silhouette/outline, a simple open circular dial-like filament inside, and a short neatly resolved base. The mark should be immediately recognizable as a lightbulb at a tiny Watch icon size. Flat vector-like geometric graphic design, beautifully balanced negative space, thick smooth consistent curves, restrained and premium. Very subtle warm tonal variation is acceptable, but no glossy 3D or large glow. One symbol only. Keep the entire mark comfortably inside the central 65% of the square so it survives both circular watch masking and iPhone rounded-square masking. Symmetrical overall silhouette, polished optical centering. No words, no letters, no numbers, no phone or watch illustrations, no thin fine detail, no surrounding border, no extra icons, no watermark.
+
+Validation:
+make build: both watchOS and iOS simulator builds passed.
+Both compiled bundle plists reference AppIcon; the Watch asset archive contains icon renditions.
+Inspected the generated artwork and compiled 120px iPhone icon.
+project.yml successfully generates an isolated project containing both catalog resource memberships and AppIcon settings.
+Existing build configurations and signing settings match the pre-icon project snapshot.

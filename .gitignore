@@ -1,0 +1,20 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.claude/
+*.mobileprovision
+*.p12
+*.cer
+Config/Local.xcconfig
+
+# Working canvases can carry sharing identifiers; publish reviewed exports.
+design/*.pen

@@ -1,0 +1,57 @@
+{
+  "checked_at_utc": "2026-10-08T15:28:40Z",
+  "read_only": false,
+  "device_ids_omitted": true,
+  "purpose": "Observed API power/brightness smoke test; no Watch latency claim",
+  "data_center": "IN",
+  "initial_state": {
+    "switch_led": false,
+    "bright_value": 1000
+  },
+  "steps": [
+    {
+      "expected": {
+        "switch_led": true,
+        "bright_value": 250
+      },
+      "api_accepted": true,
+      "command_elapsed_seconds_including_pacing": 0.574,
+      "reported_state_matches": true,
+      "physically_observed": true
+    },
+    {
+      "expected": {
+        "bright_value": 500
+      },
+      "api_accepted": true,
+      "command_elapsed_seconds_including_pacing": 0.937,
+      "reported_state_matches": true,
+      "physically_observed": true
+    },
+    {
+      "expected": {
+        "bright_value": 750
+      },
+      "api_accepted": true,
+      "command_elapsed_seconds_including_pacing": 0.217,
+      "reported_state_matches": true,
+      "physically_observed": true
+    },
+    {
+      "expected": {
+        "switch_led": false
+      },
+      "api_accepted": true,
+      "command_elapsed_seconds_including_pacing": 0.111,
+      "reported_state_matches": true,
+      "physically_observed": true
+    }
+  ],
+  "outcome": "all four commands accepted, read back, and physically observed",
+  "restoration": {
+    "attempted": true,
+    "api_accepted": true,
+    "reported_state_matches": true,
+    "physically_observed": true
+  }
+}
