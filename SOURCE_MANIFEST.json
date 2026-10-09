@@ -227,7 +227,7 @@
     },
     {
       "path": "SECURITY.md",
-      "sha256": "99627a5c537daf153cf49dfe8f595266e5d9d74e1ababc8d5513c82d81ef136e"
+      "sha256": "b542cc5dbb8588e87f164abbcc630717bed6932910dc9610b47b769b7e6fd96f"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -307,7 +307,7 @@
     },
     {
       "path": "docs/release.md",
-      "sha256": "6e1d53a977accc8ac89395408f31b533a831bde32f97542e6ce26c236f1ee09e"
+      "sha256": "0fa3ff736fbcadebca3bceedd21f59f52e6303a59f13b2177da245b53ea36dd9"
     },
     {
       "path": "docs/research/ns9001-communication-methods.md",
@@ -343,7 +343,7 @@
     },
     {
       "path": "docs/specs/open-source-readiness.md",
-      "sha256": "7282268e5f44a9a6c2c068a14f0bf79e83ced4306db9b698290d82c06b6dd952"
+      "sha256": "858a446bfbbc80c02445bf2347f6cbb0ceb4499d1c7d6c3fbc9ec37b9cd10038"
     },
     {
       "path": "docs/specs/parallel-delivery-plan.md",
@@ -375,7 +375,7 @@
     },
     {
       "path": "docs/validation/open-source-readiness.md",
-      "sha256": "ab81adcca32031b0f7167d6a31e432a2291f1d0a3b9a6f64d57d9d170cacd569"
+      "sha256": "890283862d2125f33ee8b83001284e66e30d540467618aab5d1a1ff3e6e2c7a0"
     },
     {
       "path": "docs/validation/parallel/m2-integration.md",

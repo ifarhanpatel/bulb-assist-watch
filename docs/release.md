@@ -1,9 +1,10 @@
 # Initial source release
 
-The publication candidate is a **fresh source snapshot**, not the existing
-private repository or its history. It includes the app, tests, reviewed images,
-MIT license, notices and documentation. It excludes signing overrides, credentials,
-build output, Git metadata and the editable design canvas.
+The [public source repository](https://github.com/ifarhanpatel/bulb-assist-watch)
+was created on 2026-10-09 from a fresh snapshot. It includes the app, tests,
+reviewed images, MIT license, notices and documentation. It excludes signing
+overrides, credentials, build output, the private Git history and the editable
+design canvas.
 
 ## Why a fresh snapshot
 
@@ -55,33 +56,29 @@ gitleaks dir --config=.gitleaks.toml --redact=100 --no-banner .
 
 The rules extend upstream defaults and permit only exact synthetic keys in two
 specific fixture files. They do not suppress the private canvas finding. Never
-commit a raw scanner report. The CI history scan will continue to flag the private
-development history; it is intended to pass on the new public snapshot history.
+commit a raw scanner report. The CI history scan continues to flag the private development history if run
+there; it passed on the new public snapshot history.
 
-## Publication handoff
+## Publication record
 
-Publication has not been performed. After the owner explicitly authorizes it:
+The owner authorized the public source release. The approved archive SHA-256 was
+`49a6a973d6f5b05291dcdc5e119d0895d6e3503eafb2c920d4f1a1814f3f6f84`.
+The fresh public initial commit is
+[`95de7d9`](https://github.com/ifarhanpatel/bulb-assist-watch/commit/95de7d98a89693ae77828a40b2024094dc117e81),
+authored with the owner's GitHub noreply identity. Its 136-file tree contains no
+private canvas or local signing override. The original `bulb-assist` repository
+remains private.
 
-1. Verify the candidate's SHA-256 and manifest. Review the final
-   [validation record](validation/open-source-readiness.md).
-2. Create a new repository from the extracted source with a fresh initial commit.
-   Use an owner-verified public or GitHub noreply author identity. Do not attach
-   the old repository as an upstream or push its branches, tags or checkpoint refs.
-   The existing private repository can remain the development archive.
-3. Set the description to “Experimental Apple Watch remote for supported Tuya
-   bulbs; tested with Wipro NS9001.” Retain the non-affiliation and MIT notices.
-4. Enable private vulnerability reporting as soon as the public repository exists,
-   before announcing it. Confirm **Security → Report a vulnerability** works and
-   update SECURITY.md's staging sentence. No reporting email has been invented.
-5. Require the new source checks to pass on GitHub. Local validation does not prove
-   the first hosted Actions run has passed. Review branch protection appropriate
-   to the repository and announce the experimental source scope.
+[GitHub Actions run 37965853690](https://github.com/ifarhanpatel/bulb-assist-watch/actions/runs/37965853690)
+passed the secret scan, core tests, simulator builds, documentation links and
+source export. Private vulnerability reporting is enabled in the public
+repository. This document was updated after that initial commit.
 
-Do not upload signed binaries or claim production readiness as part of this
-source-only handoff. Reassess provider and Apple distribution terms before such
-a release, hosting, monetization or shared credentials. The current review found
-no concrete blocker to independent source publication; account-specific API use
-remains subject to its own terms.
+Future source changes should pass the same checks. Do not upload signed binaries
+or claim production readiness as part of this source-only release. Reassess provider
+and Apple distribution terms before binary release, hosting, monetization or
+shared credentials. The scoped review found no concrete blocker to independent
+source publication; account-specific API use remains subject to its own terms.
 
 ## Proposed release notes
 

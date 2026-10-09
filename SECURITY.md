@@ -8,8 +8,7 @@ or private diagnostics in public issues.** If a real key is exposed, revoke it
 through Tuya before relying on deletion from a file, issue, or Git history.
 
 Use the repository's **Security → Report a vulnerability** button when it is
-available. The maintainer should enable private vulnerability reporting as part
-of public repository creation.
+available. Private vulnerability reporting is enabled for this repository.
 
 If the button is absent, open an issue containing only “Please provide a private
 security reporting channel.” Wait for an agreed private channel before sending

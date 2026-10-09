@@ -2,9 +2,9 @@
 
 Date: 2026-10-09 (Asia/Kolkata).
 Private baseline: `c92ebcad459c804a469cdf1551f8a4109f2c989e`, branch
-`codex/parallel-integration`. Public candidate identity is the export's
-`SOURCE_MANIFEST.json` and adjacent `SHA256SUMS`, including all uncommitted
-readiness changes; the baseline commit alone is not the release candidate.
+`codex/parallel-integration`. The initial public source was built from the
+reviewed export, then committed as [`95de7d9`](https://github.com/ifarhanpatel/bulb-assist-watch/commit/95de7d98a89693ae77828a40b2024094dc117e81).
+The private baseline commit is not part of public history.
 
 ## Local results
 
@@ -47,8 +47,9 @@ Added MIT licensing, original/third-party asset provenance, public setup and
 compatibility guidance, privacy/security/contribution documents, sanitized issue
 templates, a reviewed publication manifest and deterministic exporter. CI pins
 checkout to a verified commit and Gitleaks to a verified version/checksum, uses
-read-only repository permissions, and needs no bulb credentials. Hosted CI has
-not run yet; the first public repository run remains a publication gate.
+read-only repository permissions, and needs no bulb credentials. The first hosted
+[Actions run](https://github.com/ifarhanpatel/bulb-assist-watch/actions/runs/37965853690)
+passed both Swift and secret-scanning jobs.
 
 All 51 app/test/build/config files match the tested clean source copy byte for
 byte. The diagnostic wrappers were simplified to remove unused environment and
@@ -61,8 +62,9 @@ See [legal evidence](../research/open-source-legal-review.md) and
 
 ## Publication status
 
-Prepared for a fresh source-only repository. Existing private history must stay
-private because it retains the design-sharing finding and personal metadata.
-No existing history was rewritten, no repository was made public, no key was
-rotated, no vendor was contacted, and no signed binary was distributed.
-Follow the [release handoff](../release.md) after explicit publication authorization.
+The [source repository](https://github.com/ifarhanpatel/bulb-assist-watch) is
+public. Its first commit passed the hosted CI run above, and private vulnerability
+reporting is enabled. The original development repository and its history remain
+private because they retain the design-sharing finding and personal metadata.
+No old history was rewritten, no live key was rotated, no vendor was contacted,
+and no signed binary was distributed. See the [release record](../release.md).

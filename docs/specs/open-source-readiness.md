@@ -1,7 +1,8 @@
 # Open source readiness checklist
 
-Updated: 2026-10-09 (Asia/Kolkata). Status: source preparation complete. Target: an independent, experimental **source
-snapshot**. The current private history is not the publication candidate.
+Updated: 2026-10-09 (Asia/Kolkata). Status: source publication complete. The [public repository](https://github.com/ifarhanpatel/bulb-assist-watch)
+contains an independent, experimental source snapshot. The original private
+history was excluded.
 See [release procedure](../release.md) and [validation](../validation/open-source-readiness.md).
 
 The owner confirmed a personal project with no employer/client material and
@@ -55,9 +56,9 @@ This is evidence review, not a legal opinion. See the
 - [x] Add sanitized bug and compatibility issue templates.
 - [x] Document the fresh-snapshot release procedure and proposed release notes.
 
-Private vulnerability reporting becomes available when a public repository
-exists; enabling and checking it before announcement is part of publication.
-The fallback currently requests private contact without revealing report details.
+Private vulnerability reporting is enabled for the public repository. The
+fallback requests private contact without revealing report details if GitHub
+removes or hides the reporting control.
 
 ## Verification
 
@@ -70,13 +71,13 @@ The fallback currently requests private contact without revealing report details
 - [x] Check final Markdown targets, script/workflow syntax, scanner canary, final source scan and reproducible archive integrity.
 - [x] Prepare concrete source-only release notes and publication steps.
 
-## Publication actions (outside preparation)
+## Publication actions
 
-- [ ] Owner authorizes public publication of the exact reviewed archive/checksum.
-- [ ] Create a fresh repository/initial commit with a verified public/noreply author identity; keep private history and excluded canvas private.
-- [ ] Enable and verify private vulnerability reporting before announcing the public repository.
-- [ ] Run hosted CI on the initial public commit and confirm required checks pass.
+- [x] Owner authorized public publication of the exact reviewed archive/checksum.
+- [x] Create a fresh repository/initial commit with a GitHub noreply author identity; keep private history and excluded canvas private.
+- [x] Enable and verify private vulnerability reporting before announcing the public repository.
+- [x] Run hosted CI on the initial public commit and confirm required checks pass.
 
-No repository visibility change, vendor contact or binary release is authorized
-by completion of this preparation checklist. Source preparation can be complete
-while these explicitly deferred publication actions and M4 remain open.
+The public source repository is live. The original repository remains private;
+no vendor contact or binary release was part of publication. M4 hardware and
+daily-use validation remains open. See the [release record](../release.md).
